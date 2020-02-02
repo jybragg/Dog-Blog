@@ -22,10 +22,19 @@ const Menu = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/services">Services</Link>
+        <Link to="/dogparks">Dog Parks</Link>
       </li>
       <li>
         <Link to="/blog">Blog</Link>
+      </li>
+      <li>
+        <Link to="/diy">DIY</Link>
+      </li>
+      <li>
+        <Link to="/treats">Treats</Link>
+      </li>
+      <li>
+        <Link to="/dogwalking">Dog Walking</Link>
       </li>
     </ul>
   </div>

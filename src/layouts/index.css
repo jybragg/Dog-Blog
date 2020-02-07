@@ -40,7 +40,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #333;
+  color: rgb(12, 12, 12);
   text-decoration: none;
 }
 a:active,
@@ -66,7 +66,7 @@ h1 {
 }
 mark {
   background-color: #ff0;
-  color: #000;
+  color: rgb(68, 73, 66);
 }
 small {
   font-size: 80%;
@@ -199,7 +199,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 4%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;

@@ -1,7 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import BlogPage from '../pages/blog'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IndexPage = () => (
   <div className="container">
@@ -9,17 +7,30 @@ const IndexPage = () => (
     <h1>Recent Posts</h1>
     <hr />
 
-    <div className='row justify-content-center'>
-      <div className="card">
-        <h5 className="card-header">Featured Topic</h5>
-        <div className="card-body">
-          <h5 className="card-title">Special treatment</h5>
-          <p className="card-text">Lorem ipsum dolor sit amet, ctium aut tenetur amet?</p>
-          <a href="/treats" className="btn btn-primary">Read More</a>
+    <div className='row'>
+      <div className='col'>
+        <div className="card">
+          <h5 className="card-header">Featured Topic 1</h5>
+          <div className="card-body">
+            <h5 className="card-title">DIY Birthday Treats</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet, ctium aut tenetur amet?</p>
+            <a href="/treats" className="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div className='col'>
+        <div className="card">
+          <h5 className="card-header">Featured Topic 2</h5>
+          <div className="card-body">
+            <h5 className="card-title">Best Dog Park in St Pete</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet, ctium aut tenetur amet?</p>
+            <a href="/treats" className="btn btn-primary">Read More</a>
+          </div>
         </div>
       </div>
     </div>
-  
+
     <br />
     <hr />
 
@@ -51,7 +62,6 @@ const IndexPage = () => (
 
     <br />
 
-    <BlogPage />
     <footer style={{ height: '10rem' }}></footer>
 
   </div>

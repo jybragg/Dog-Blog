@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Menu from '../components/menu'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
 const Layout = ({ children, data }) => (

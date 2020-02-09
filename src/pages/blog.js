@@ -3,7 +3,9 @@ import Link from 'gatsby-link'
 
 const Blog = ({ data }) => (
   <div>
+     <br />
     <h1>Latest Posts</h1>
+    <hr />
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>
         <h3>{post.node.frontmatter.title}</h3>
@@ -16,6 +18,7 @@ const Blog = ({ data }) => (
         <Link to={post.node.frontmatter.path}>Read More</Link>
         <br />
         <br />
+        
         <hr />
       </div>
     ))}
@@ -41,3 +44,4 @@ export const pageQuery = graphql`
 `
 
 export default Blog
+

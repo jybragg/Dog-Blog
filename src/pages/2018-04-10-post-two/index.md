@@ -1,7 +1,7 @@
 ---
 path: "/post-two"
 date: "2020-04-10"
-title: "My Second Post"
+title: "The Second Post"
 author: "Susan"
 ---
 
